@@ -3,12 +3,14 @@ package org.webpki.android.saturn;
 import org.webpki.android.support.WebViewActivity;
 
 public class AuthorizeActivity extends WebViewActivity {
-    final static String MAIN_HTML ="<html><body style='background:blue'>'%28' is the code for '('</body></html>";
+    final static String MAIN_HTML ="<html><body style='background:linear-gradient(to bottom right, #000050, #0101a6 40%, #3030ff 50%, #0101a6 60%, #000050)" +
+               ";background-attachment:fixed;color:white'>'%28' is the code for '('</body></html>";
 
     final static String TOOLBAR_HTML = """
 <html><body style='background:black;margin:0'>
 <div style='border-width:0 0 0.15em 0;border-color:grey;border-style:solid'>
-<svg style='max-height:2em;padding:3px 0.5em' viewBox='0 0 170 170' \
+<div style='display:table-cell;vertical-align:middle'>
+<svg style='height:2em;padding:3px 0.5em' viewBox='0 0 170 170' \
 xmlns='http://www.w3.org/2000/svg'>
 <circle cx='85' cy='85' r='60' fill='#6e9e3f'/>
 <path fill='#f9f9f9' d='m 64.81712,101.23602 q 0.625,7.03125 3.515625,\
@@ -36,8 +38,9 @@ xmlns='http://www.w3.org/2000/svg'>
  154.9972 113.99219,113.99219 154.9972,72.987175 175.25757,26.765383 \
  159.24609,10.753906 155.74358,7.251395 150.79628,5.4846626 144.77344,5.2910156 Z'/>
 </svg>
+</div>
 <div style='font-family:monospace;font-weight:bold;font-size:1.4em;\
-color:white;display:inline-block;position:absolute;top:0.5em'>spaceshop.com</div>
+color:white;display:table-cell;vertical-align:middle'>spaceshop.com</div>
 </div></body></html>""";
 
     @Override
