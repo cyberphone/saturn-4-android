@@ -3,14 +3,19 @@ package org.webpki.android.saturn;
 import org.webpki.android.support.WebViewActivity;
 
 public class AuthorizeActivity extends WebViewActivity {
-    final static String MAIN_HTML ="<html><body style='background:linear-gradient(to bottom right, #000050, #0101a6 40%, #3030ff 50%, #0101a6 60%, #000050)" +
-               ";background-attachment:fixed;color:white'>'%28' is the code for '('</body></html>";
+    final static String MAIN_HTML = """
+<!DOCTYPE html><html>
+<head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head>
+<body style='background:linear-gradient(to bottom right, #000050, #0101a6 40%, #3030ff 50%, #0101a6 60%, #000050)\
+;background-attachment:fixed;color:white'>'%28' is the code for '('</body></html>""";
 
     final static String TOOLBAR_HTML = """
-<html><body style='background:black;margin:0'>
+<!DOCTYPE html><html>
+<head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head>
+<body style='background:black;margin:0'>
 <div style='border-width:0 0 0.15em 0;border-color:grey;border-style:solid'>
-<div style='display:table-cell;vertical-align:middle'>
-<svg style='height:1.8em;padding:3px 0.5em' viewBox='0 0 170 170' \
+<div style='display:table-cell'>
+<svg style='height:1.8em;padding:5px 0.5em 2px 0.5em' viewBox='0 0 170 170' \
 xmlns='http://www.w3.org/2000/svg'>
 <circle cx='85' cy='85' r='60' fill='#3f9e3f'/>
 <path fill='white' d='m 64.81712,101.23602 q 0.625,7.03125 3.515625,\

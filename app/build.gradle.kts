@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "org.webpki.android.saturn"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "org.webpki.android.saturn"
         minSdk = 29
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
