@@ -13,9 +13,9 @@ public class AuthorizeActivity extends WebViewActivity {
 <!DOCTYPE html><html>
 <head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head>
 <body style='background:black;margin:0'>
-<div style='border-width:0 0 0.15em 0;border-color:grey;border-style:solid'>
+<div style='border-width:0.12em 0 0.12em 0;border-color:grey;border-style:solid'>
 <div style='display:table-cell'>
-<svg style='height:1.8em;padding:5px 0.5em 2px 0.5em' viewBox='0 0 170 170' \
+<svg style='height:1.8em;padding:0.3em 0.5em 0 0.5em' viewBox='0 0 170 170' \
 xmlns='http://www.w3.org/2000/svg'>
 <circle cx='85' cy='85' r='60' fill='#3f9e3f'/>
 <path fill='white' d='m 64.81712,101.23602 q 0.625,7.03125 3.515625,\
